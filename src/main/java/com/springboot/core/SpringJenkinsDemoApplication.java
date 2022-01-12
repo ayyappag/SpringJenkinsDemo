@@ -1,7 +1,6 @@
 package com.springboot.core;
 
 import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +18,7 @@ public class SpringJenkinsDemoApplication {
 	}
 
 	public static void main(String[] args) {
-		logger.info("spring boot executed");
+		logger.info("spring boot executed updated");
 		SpringApplication.run(SpringJenkinsDemoApplication.class, args);
 	}
 
