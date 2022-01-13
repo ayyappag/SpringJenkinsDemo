@@ -18,7 +18,7 @@ public class TestController {
 	public ResponseEntity<String> getName() {
 
 		logger.info("get response call");
-		return new ResponseEntity<String>("tests", HttpStatus.OK);
+		return new ResponseEntity<String>("tests 123323", HttpStatus.OK);
 	}
 
 }
